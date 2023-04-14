@@ -1,0 +1,62 @@
+#formstart {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+
+.outline3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.outline4 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+label {
+    margin-right: .3em;
+    width: 13em;
+    display: inline-block;
+    text-align: right;
+}
+
+li {
+    list-style: none;
+}
+
+select:focus,
+select:active,
+input:focus,
+input:active,
+input:focus+label,
+input:active+label,
+label[for]:focus,
+label[for]:active {
+    color: #FFF !important;
+    background-color: #BB3D2F !important;
+}
+
+.reqfield {
+    background: #FF9;
+}
+
+input {
+    margin: .3em;
+}
+
+input[type="radio"] {
+    vertical-align: bottom;
+}
+
+#wrapper {
+    width: 60%;
+    margin-left: 4%;
+}
+
+body {
+    background-color: grey;
+}
